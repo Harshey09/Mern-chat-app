@@ -26,7 +26,7 @@ export const ChatContextProvider = ({children, user}) => {
     
     // initializing socket
     useEffect(()=>{
-        const newSocket = io("https://localhost:3000");
+        const newSocket = io("http://localhost:3000");
         setSocket(newSocket);
         return ()=>{
             newSocket.disconnect();

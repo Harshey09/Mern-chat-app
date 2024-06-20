@@ -15,9 +15,7 @@
   13. JWT
   14. dotenv
 
-## Live Demo
-
-Check out the live demo of the project [here](https://realtime-chat-app-hpbj.onrender.com/).
+## Live Demo - https://realtime-chat-app-hpbj.onrender.com/
 
 ## Features
 - Registration Page with validators to check valid email ID and strong password, encrypted by JWT_SECRET_KEY.
